@@ -134,6 +134,7 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 12pt;
+				margin-left: 10em;
 			}
 
 		}
@@ -2019,7 +2020,7 @@ input, select, textarea {
 
 
 			.features section:nth-child(-n + 2) {
-				border-top-width: 0;
+				border-top-width: 0.25em;
 			}
 
 			.features section:nth-child(2n) {
@@ -3825,17 +3826,18 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		@media screen and (max-width: 1280px) {
+		@media screen and (max-width: 1000px) {
 
 			#sidebar {
-				height: 3.5em;
+				height: 4.5em;
 				left: 0;
-				line-height: 3.5em;
+				line-height: 2.5em;
 				overflow: hidden;
 				padding: 0;
 				text-align: center;
 				top: 0;
 				width: 100%;
+				font-size: small;
 			}
 
 				#sidebar > .inner {
