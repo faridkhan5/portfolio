@@ -3497,7 +3497,6 @@ input, select, textarea {
 
 			#sidebar + #wrapper {
 				margin-left: 0;
-				padding-top: 3.5em;
 			}
 
 		}
@@ -3562,6 +3561,12 @@ input, select, textarea {
 		z-index: 10000;
 		font-size: larger;
 	}
+		
+		#sidebar::-webkit-scrollbar {
+			display: none;
+			-ms-overflow-style: none;
+  			scrollbar-width: none;
+		}
 
 		#sidebar > .inner {
 			display: -moz-flex;
@@ -3832,7 +3837,7 @@ input, select, textarea {
 				height: 4.5em;
 				left: 0;
 				line-height: 2.5em;
-				overflow: hidden;
+				overflow: scroll;
 				padding: 0;
 				text-align: center;
 				top: 0;
@@ -3889,13 +3894,13 @@ input, select, textarea {
 
 		}
 
-		@media screen and (max-width: 736px) {
+		/* @media screen and (max-width: 736px) {
 
 			#sidebar {
 				display: none;
 			}
 
-		}
+		} */
 
 /* Intro */
 
