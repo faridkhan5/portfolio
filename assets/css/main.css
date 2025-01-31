@@ -139,6 +139,15 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 736px) {
+
+			body, input, select, textarea {
+				font-size: 11pt;
+				margin-left: 0em;
+			}
+
+		}
+
 		@media screen and (max-width: 360px) {
 
 			body, input, select, textarea {
@@ -3954,7 +3963,7 @@ input, select, textarea {
 							display: block;
 							height: inherit;
 							line-height: inherit;
-							margin: 0 0 0 2em;
+							margin: 0 0 0 1em;
 							padding: 0;
 						}
 
