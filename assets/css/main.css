@@ -3218,9 +3218,16 @@ input, select, textarea {
 			.spotlights > section > .image {
 				max-height: 100%;
 			}
+			
+				.spotlights > section > .image img {
+					opacity: 0.25;
+				}
+			
 
-			.spotlights > section > .content {
-				padding: 3em 2em 1em 2em ;
+			.spotlights > section > .image .content {
+				opacity: 1;
+				z-index: 1000;
+				color: #ffffff;
 			}
 
 		}
